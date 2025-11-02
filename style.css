@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: radial-gradient(circle at center, #ff3d7f, #0b001a);
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 2em;
+  text-shadow: 0 0 25px #ff69b4;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from { text-shadow: 0 0 15px #ff69b4; }
+  to { text-shadow: 0 0 30px #ff1493; }
+}
+
+canvas {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  background: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
